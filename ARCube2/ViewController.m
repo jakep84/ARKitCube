@@ -21,9 +21,9 @@
     [super viewDidLoad];
 
     //Container to hold all of the 3D geometry
-    SNCScene *scene = [SCNScene new];
+    SCNScene *scene = [SCNScene new];
     
-    //The3 3D cube geometry we want to draw
+    //The 3D cube geometry we want to draw
     SCNBox *boxGeometry = [SCNBox boxWithWidth: 0.1
                                 height:0.1
                                 length:0.1
